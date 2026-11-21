@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 12 216 216" width="32" height="32" role="img" aria-label="HobbyVault">
+  <defs>
+    <linearGradient id="v" gradientUnits="userSpaceOnUse" x1="50" y1="30" x2="140" y2="230">
+      <stop offset="0" stop-color="#f4f0e7"/>
+      <stop offset="0.55" stop-color="#c4c1b9"/>
+      <stop offset="1" stop-color="#8a8882"/>
+    </linearGradient>
+    <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="70" y1="120" x2="215" y2="40"><stop offset="0.000" stop-color="#f8a854"/><stop offset="0.122" stop-color="#f8a854"/><stop offset="0.212" stop-color="#fa7861"/><stop offset="0.288" stop-color="#fa7861"/><stop offset="0.378" stop-color="#e283c5"/><stop offset="0.455" stop-color="#e283c5"/><stop offset="0.545" stop-color="#c79cfc"/><stop offset="0.622" stop-color="#c79cfc"/><stop offset="0.712" stop-color="#47b3ff"/><stop offset="0.788" stop-color="#47b3ff"/><stop offset="0.878" stop-color="#67d0a4"/><stop offset="1.000" stop-color="#67d0a4"/></linearGradient>
+    <path id="h" d="M64 86L112 106L221 20L128 228Z"/>
+    <clipPath id="top"><path d="M40 126L118 150L240 56L300 -40L-40 -40Z"/></clipPath>
+    <clipPath id="bot"><path d="M40 126L118 150L240 56L300 300L-40 300Z"/></clipPath>
+    <mask id="arm" maskUnits="userSpaceOnUse" x="-40" y="-40" width="340" height="340">
+      <rect x="-40" y="-40" width="340" height="340" fill="#fff"/>
+      <use href="#h" fill="#000" stroke="#000" stroke-width="8" stroke-linejoin="round"/>
+    </mask>
+    <mask id="cut" maskUnits="userSpaceOnUse" x="-40" y="-40" width="340" height="340">
+      <rect x="-40" y="-40" width="340" height="340" fill="#fff"/>
+      <path d="M40 126L118 150L240 56" fill="none" stroke="#000" stroke-width="8"/>
+    </mask>
+  </defs>
+  <path d="M40 32H86L128 125H82Z" fill="url(#v)" mask="url(#arm)"/>
+  <g mask="url(#cut)">
+    <use href="#h" fill="url(#d)" clip-path="url(#top)"/>
+    <use href="#h" fill="url(#v)" clip-path="url(#bot)"/>
+  </g>
+</svg>

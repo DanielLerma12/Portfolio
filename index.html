@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniel Lerma · Desarrollador web</title>
+  <meta name="description" content="Portafolio de Daniel Felipe Lerma Angarita, técnico en sistemas y desarrollador web full stack en Bogotá.">
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" href="assets/foto.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></symbol>
+    <symbol id="i-brief" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+  </svg>
+
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Secciones">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero-top">
+        <img class="avatar" src="assets/foto.png" alt="Foto de Daniel Lerma" width="80" height="80">
+        <span class="badge"><svg><use href="#i-pin"/></svg>Bogotá, Colombia</span>
+      </div>
+      <h1>Hola, soy <span class="accent">Daniel</span></h1>
+      <p class="lead">
+        <strong>Técnico en sistemas y desarrollador web full stack.</strong>
+        Construyo aplicaciones con <strong>React, Next.js, Node.js y TypeScript</strong>, conectadas a
+        bases de datos y APIs REST, y trabajo con desarrollo asistido por IA.
+      </p>
+      <div class="actions">
+        <a class="btn" href="mailto:d.felipe12@hotmail.com"><svg><use href="#i-mail"/></svg>Contáctame</a>
+        <a class="btn" href="https://github.com/DanielLerma12/" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg>GitHub</a>
+      </div>
+    </section>
+
+    <!-- ============ PROYECTOS ============ -->
+    <section id="proyectos" class="block">
+      <h2><svg><use href="#i-code"/></svg>Proyectos</h2>
+
+      <article class="project">
+        <div class="cover cover-vault">
+          <img src="assets/hobbievault.svg" alt="" width="88" height="88">
+        </div>
+        <div class="project-body">
+          <h3>HobbieVault</h3>
+          <p class="tagline">Mi bóveda personal de hobbies: juegos, anime, manga, películas, series y libros en un solo lugar.</p>
+          <ul class="features">
+            <li><b>Biblioteca y diario:</b> estado, puntuación y progreso de cada título, con sesiones que calculan duraciones y fechas.</li>
+            <li><b>Reseñas con IA:</b> dictas tu opinión y Gemini la resume y la puntúa por categorías.</li>
+            <li><b>Búsqueda en catálogos:</b> IGDB, AniList, Kitsu, TMDB, TVmaze y Hardcover.</li>
+            <li><b>Listas propias</b> ordenables arrastrando y soltando.</li>
+          </ul>
+          <ul class="tags">
+            <li>Next.js 16</li><li>React 19</li><li>TypeScript</li><li>Tailwind 4</li>
+            <li>Prisma 7</li><li>Supabase</li><li>Gemini</li><li>Vercel</li>
+          </ul>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://hobby-vault.vercel.app/?auth=1" target="_blank" rel="noopener"><svg><use href="#i-link"/></svg>Ver demo</a>
+            <span class="note"><svg><use href="#i-lock"/></svg>Acceso de prueba: <code>tester</code> / <code>usertester123</code></span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="cover cover-notes">
+          <img src="assets/notekeeper.svg" alt="" width="88" height="88">
+        </div>
+        <div class="project-body">
+          <h3>Notekeeper</h3>
+          <p class="tagline">Mis notas, listas y cuentas en un solo lugar: una alternativa a Google Keep que guarda todo en mi propio Postgres.</p>
+          <ul class="features">
+            <li><b>Notas por bloques:</b> texto, listas con checkboxes y bloques de cuenta en una misma nota.</li>
+            <li><b>Contraseñas cifradas</b> con AES-256-GCM que solo se muestran cuando las pides.</li>
+            <li><b>Importa y exporta:</b> .txt, .md, Google Keep (Takeout) y backups propios en JSON.</li>
+            <li><b>Etiquetas, 18 colores, fijado y búsqueda</b> instantánea, con deshacer al archivar o borrar.</li>
+          </ul>
+          <ul class="tags">
+            <li>React 19</li><li>Vite 8</li><li>TypeScript</li><li>Hono 4</li>
+            <li>Prisma 7</li><li>Postgres</li><li>Supabase Auth</li><li>Render</li>
+          </ul>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://github.com/DanielLerma12/Note-Keeper" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg>Ver código</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ EXPERIENCIA ============ -->
+    <section id="experiencia" class="block">
+      <h2><svg><use href="#i-brief"/></svg>Experiencia</h2>
+      <ol class="timeline">
+        <li>
+          <h3>Auxiliar de sistemas</h3>
+          <p class="where">Fabega S.A.S. · Planeta Sport</p>
+          <time>Sep 2021 – Nov 2021</time>
+          <p>Optimicé el sitio web de la empresa con React y di soporte de software y hardware al área de logística y a los usuarios del sistema contable Comerssia.</p>
+        </li>
+        <li>
+          <h3>Auxiliar operativo y de sistemas</h3>
+          <p class="where">Safety Export S.A.S.</p>
+          <time>Feb 2019 – Ene 2020</time>
+          <p>Automaticé el inventario mensual con Excel y VBA, y elaboré remisiones, facturas y reportes mensuales en Siigo.</p>
+        </li>
+        <li>
+          <h3>Auxiliar de audiovisuales</h3>
+          <p class="where">Universidad de los Andes</p>
+          <time>Ago 2018 – Dic 2018</time>
+          <p>Configuré los equipos audiovisuales de clases y eventos institucionales, y controlé el préstamo e inventario del área.</p>
+        </li>
+        <li>
+          <h3>Aprendiz en soporte técnico</h3>
+          <p class="where">Universidad de los Andes</p>
+          <time>Ene 2018 – Jul 2018</time>
+          <p>Di soporte a videoconferencias y usuarios, mantuve los computadores y automaticé inventarios y nómina con Excel y VBA.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ SOBRE MÍ ============ -->
+    <section id="sobre-mi" class="block">
+      <h2><svg><use href="#i-user"/></svg>Sobre mí</h2>
+      <div class="about">
+        <img class="about-photo" src="assets/foto.png" alt="Daniel Lerma" width="180" height="180" loading="lazy">
+        <div>
+          <p>Soy <strong>Daniel Felipe Lerma Angarita</strong>, técnico laboral en herramientas informáticas de Bogotá.
+            Empecé en soporte técnico y automatizando procesos con Excel y VBA, y hoy construyo aplicaciones web
+            completas, del frontend a la base de datos.</p>
+          <p>Mis proyectos nacen de lo que uso a diario: una bóveda para seguir mis hobbies y un lugar propio
+            para mis notas. Me apoyo en herramientas de IA como Claude y OpenCode para avanzar más rápido.
+            Hablo español nativo e inglés intermedio (B1–B2).</p>
+          <ul class="tags">
+            <li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>Node.js</li>
+            <li>APIs REST</li><li>Bases de datos</li><li>Git · GitHub</li><li>Excel · VBA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section id="contacto" class="block contact">
+      <h2>¿Hablamos?</h2>
+      <p>Escríbeme y te respondo lo antes posible.</p>
+      <div class="actions center">
+        <a class="btn btn-primary" href="mailto:d.felipe12@hotmail.com"><svg><use href="#i-mail"/></svg>d.felipe12@hotmail.com</a>
+        <a class="btn" href="https://github.com/DanielLerma12/" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg>DanielLerma12</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year">2026</span> Daniel Lerma</footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Resalta en la barra la sección visible
+    const links = [...document.querySelectorAll('.nav a')];
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        links.forEach(a => a.classList.toggle('active', a.hash === '#' + e.target.id));
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    document.querySelectorAll('main section[id]').forEach(s => io.observe(s));
+  </script>
+</body>
+</html>
