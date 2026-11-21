@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/foto.png" alt="Daniel Lerma" width="96" />
+<img src="assets/logo.svg" alt="Portfolio" width="72" />
 
 # Portfolio
 
@@ -57,7 +57,7 @@ npx serve .
 portfolio/
 ├── index.html      # Contenido y script de navegación
 ├── styles.css      # Estilos y tema claro/oscuro
-└── assets/         # Foto y logos de los proyectos
+└── assets/         # Logo (favicon), foto y logos de los proyectos
 ```
 
 ---
