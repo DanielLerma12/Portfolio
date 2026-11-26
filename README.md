@@ -19,7 +19,7 @@
 | | |
 | --------------------- | ------------------------------------------------------------------------------------------------ |
 | 👋 **Presentación**    | Foto, ubicación y un resumen de mi perfil como técnico en sistemas y desarrollador web full stack. |
-| 💻 **Proyectos**       | HobbieVault y Notekeeper, con sus funciones, tecnologías y enlaces a la demo o al código.          |
+| 💻 **Proyectos**       | HobbieVault y NoteKeeper, con sus funciones, tecnologías y enlaces a la demo o al código.          |
 | 💼 **Experiencia**     | Línea de tiempo con mis trabajos anteriores.                                                      |
 | 🙋 **Sobre mí**        | Mi historia, herramientas que uso y habilidades.                                                  |
 | 📬 **Contacto**        | Correo y GitHub a un clic.                                                                        |
@@ -65,7 +65,7 @@ portfolio/
 ## 🔗 Proyectos que muestra
 
 - **[HobbieVault](https://hobby-vault.vercel.app/?auth=1)** — bóveda personal de hobbies: juegos, anime, manga, películas, series y libros.
-- **[Notekeeper](https://github.com/DanielLerma12/Note-Keeper)** — notas, listas y cuentas en un solo lugar, sobre mi propio Postgres.
+- **[NoteKeeper](https://github.com/DanielLerma12/Note-Keeper)** — notas, listas y cuentas en un solo lugar, sobre mi propio Postgres.
 
 ---
 
